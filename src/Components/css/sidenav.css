@@ -1,0 +1,37 @@
+/* Add this CSS for active tab styling */
+.sidenav-bg{
+  background-color: gray;
+}
+.active {
+    background-color: #64dd17; 
+
+}
+
+.text-sidenav-section{
+    color: rgb(0, 0, 0);
+
+}
+.hoverinfo:hover{
+    background-color: #64dd17;
+    display: block;
+}
+
+.sidenav-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 56px; /* Adjust height as needed */
+    background-color: #333; /* Adjust background color as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .sidenav-name:hover {
+    height: 100%; /* Expand height on hover */
+  }
+  

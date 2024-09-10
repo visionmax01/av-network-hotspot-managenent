@@ -1,0 +1,83 @@
+.display-message{
+  margin-top: -25px;
+  margin-left: 55px;
+}
+.message-register{
+  color: rgb(94, 2, 2);
+  font-weight: 900;
+
+  padding: 5px 15px 2px 15px;
+  height: max-content;
+}
+  /* register page css */
+ .AdminForm{
+  width: 50vw;
+  margin: auto;
+  margin-top: 80px;
+  background-color:transparent;
+  border-radius: 10px;
+  background-color: #add8e6;
+ }
+ .AdminForm h3{
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin:25px 0 0;
+  width: max-content;
+  padding: 6px 80px 6px 10px;
+  border-radius: 0px 15px 0px 0px;
+ }
+ .register-form{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+ }
+
+ .formGroupSection{
+  display: flex;
+  width: 100%;
+ }
+.subFormGroup{
+  width: 47%;
+  margin-right: 50px;
+  display: flex;
+  margin-top: 25px;
+  flex-direction: column;
+ }
+ .subFormGroup label{
+  color: #170148;
+ }
+ .subFormGroup input{
+  color: #130124;
+  border-style: none;
+  background-color: #ffffff;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 6px 6px 6px 8px;
+ }
+ .subFormGroup select{
+  border-style: none;
+  color: #130124;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 6px 6px 6px 8px;
+ }
+ .BtnAddadmin{
+  padding: 4px 10px 4px 10px;
+  background-color: green;
+  margin-top: 25px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  width: 7vw;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+ }
+ .BtnAddadmin:hover{
+  padding: 4px 10px 4px 10px;
+  background-color: rgb(2, 2, 2);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+ }

@@ -1,0 +1,110 @@
+.main_container {
+  background-color: bisque;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: red;
+}
+
+.App-header .imagemain {
+  width: 250px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.App-header .Main_logo {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.App-header nav {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 3px solid rgb(255, 200, 0) !important;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header nav ul li {
+  margin-right: 35px !important;
+}
+
+.App-header nav ul li a {
+  text-decoration: none !important;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+.App-header nav ul li a:hover {
+  color: rgb(255, 200, 0) !important;
+}
+
+.loginbtn {
+  background-color: #00aeff !important;
+  color: white !important;
+  border: none !important;
+  padding: 5px 25px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+.loginbtn:hover {
+  background-color: #0276ab !important;
+  color: white !important;
+  border: none !important;
+  padding: 5px 25px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+.container h1 {
+  color: red;
+}
+
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 768px) {
+  .main_container {
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+  }
+  .imagemain {
+      width: 100px;
+      height: 25px;
+      margin-left: 15px;
+      margin-top: 3px;
+  }
+
+  .App-header nav {
+      height: auto;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+  }
+
+  .App-header nav ul {
+      flex-direction: column;
+  }
+
+  .App-header nav ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,572 @@
+/* app bar or admin navbar css*/
+.main-logo{
+    width:250px;
+    height:30px;
+}
+.List-item{
+    background-color: #ffffff;
+    transition: background-color ease 0.2s;
+}
+.List-item:hover{
+    background-color: #f67878;
+}
+.left_div1{
+
+}
+.left_div1:hover{
+
+   
+    }
+
+    .pupup-menu-selector{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+.profile-img-user img{
+    width: 35px;
+    cursor: pointer;
+    background-color: blue;
+    height: 35px;
+    border-radius: 50%;
+}
+.containt-profilicon{
+    color:#361290;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    height: 30px;
+    padding: 1% 0% 5% 2%;
+
+    
+}
+/*end of admin navbar css*/
+.Bg_color{
+     background: rgb(30,34,70);
+     background: linear-gradient(150deg, rgba(30,34,70,1)0%, rgba(30,47,141,1)100%);
+    
+}
+.small-card{
+    color:white;
+}
+.income-display{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-income{
+    background: linear-gradient(150deg, rgba(30,34,70,1)10%, rgb(14, 18, 41)100%);
+
+}
+
+ .Icon_color{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color:white
+}
+
+.Number-Present{
+    font-size: 35px;
+    color: green;
+    font-weight: 900;
+}
+.Number-Present1{
+    font-size: 35px;
+    color: #6a7effd4;
+    font-weight: 900;
+}
+    
+.Number-Present2{
+    font-size: 35px;
+    font-weight: 900;
+    color: #ff000094;
+}
+.Number-Present3{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(255, 149, 0);
+}
+
+/*deashboard containt css*/
+
+.Dashboard-main{
+    width: 100%;  
+    height: 100%;
+    display: Flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    
+}
+.container-containt{
+    width:70%;
+}
+.left-side-container{
+    position: relative;
+    z-index: 300;
+    margin-top: 65px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    flex-wrap: wrap;
+    background-color: transparent;
+    height: max-content;
+    justify-content: space-around;  
+}
+
+
+.container-bottom-main{
+    width: 99%;
+    margin-left: 0.5%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: rgba(248, 248, 255, 0.438);
+    box-shadow: 0px 0px 5px 0px rgb(95, 95, 255);
+
+
+}
+
+
+.Dashboard-card{
+    margin-bottom: 15px;
+    width: 200px;
+    height:100px;
+    font-size: 30px;
+    padding-left: 10px;
+    color:white;
+    background: rgb(30,34,70);
+    background: linear-gradient(150deg, rgba(30,34,70,1)0%, rgba(30,47,141,1)100%);
+    border-radius: 5px;
+    
+}
+.card_datetime{
+    margin-top: 80px;
+    width: 20%;
+    background: linear-gradient(150deg, rgba(30,34,70,1)10%, rgb(14, 18, 41)100%);
+    width: 250px;
+    border-radius: 10px;
+    height:max-content;
+    padding:20px;
+    background-color: #1976d2;
+}
+
+.text-style-date{
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+}
+.date-Label{
+    display: flex;
+}
+.date{
+    color:#ffaa00;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #5c5c44;
+    padding-right: 80px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.date-time1{
+    color:white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.text-style-time{
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+}
+.time{
+    font-size: 25px;
+    margin-left: -20px;
+  font-weight: 600;
+  color:#ffaa00;
+  background-color: #5c5c44;
+  padding-right: 60px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sub-title{
+    color:white;
+    font-size: 15px;
+    text-transform:capitalize;
+    
+}
+
+
+/*search containt */
+.Search-Box-dash{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(to right, #eaff96,#a0ff97 );
+    flex-wrap: wrap;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+   
+  
+}
+.Search_icon{
+    width: 5px;
+    height: 5px;
+}
+.search-field input{
+    font-size: 16px;
+    color: black;
+    width: 250px;
+    height: 30px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 0px;
+    border-style: none;
+    outline: 2px solid #ff7700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+
+}
+.titel-text{
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color:Blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search-btn{
+    width: max-content;
+    height: max-content;
+    font-size: 18px;
+    color:#ffffff;
+    background-color: #1a18b0dc;
+    border-style: none;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 7px;
+    outline: none;
+    cursor: pointer;
+   
+    transition: all ease-in-out 0.3s;
+
+}
+.search-btn:hover{
+    background-color: #020087;
+}
+
+
+
+/*end of search containt */
+
+
+/*display search results */
+
+.btn-Pay{
+    width:50px;
+    font-size: 16px;
+    background-color: green;
+    border-style: none;
+    outline: none;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.btn-Pay:hover{
+    transform: translateY(-3px);
+    background-color: #0fc805d7;
+    box-shadow: 2px 2px 5px rgb(243, 253, 243);
+}
+.btn-delete{
+    width:50px;
+    font-size: 16px;
+    background-color: rgb(128, 9, 0);
+    border-style: none;
+    outline: none;
+    padding-top: 5px;
+    margin-left:2vh;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.btn-delete:hover{
+    transform: translateY(-3px);
+    background-color: #ec0000d7;
+    box-shadow: 2px 2px 5px rgb(243, 253, 243);
+}
+.btn-Renew{
+    width:70px;
+    font-size: 16px;
+    background-color: #eba901c2;
+    border-style: none;
+    outline: none;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+}
+.btn-Renew:hover{
+    background-color: #c58e04e7;
+    transform: translateY(-3px);
+    box-shadow: 2px 2px 5px rgb(243, 253, 243);
+}
+.btn-update{
+    width:70px;
+    font-size: 16px;
+    background-color: #028fa2;
+    border-style: none;
+    outline: none;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 5px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.btn-update:hover{
+    transform: translateY(-3px);
+    background-color: rgb(0, 137, 183);
+    box-shadow: 2px 2px 5px rgb(243, 253, 243);
+}
+.btn-view_detail{
+    width:110px;
+    font-size: 16px;
+    background-color: #4a9cb7;
+    border-style: none;
+    outline: none;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 5px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.btn-view_detail:hover{
+    transform: translateY(-3px);
+    background-color: #157595;
+    box-shadow: 2px 2px 5px rgb(243, 253, 243);
+}
+.btn-view-payment{
+    width:120px;
+    font-size: 16px;
+    background-color: #1b8803a0;
+    border-style: none;
+    outline: none;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+}
+.btn-view-payment:hover{
+    transform: translateY(-3px);
+    background-color: #209f04c3;
+    box-shadow: 2px 2px 5px rgb(243, 253, 243);
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .Number-Present,
+  .Number-Present1,
+  .Number-Present2,
+  .Number-Present3 {
+    animation: fadeIn 1s ease-in-out;
+  }
+  .Icon_color.rotate {
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+  }
+  
+  .typed-animation {
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .typed-animation .typed-cursor {
+    display: inline-block;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+
+/* Profile menu styles */
+.profile-menu {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgb(255, 222, 222);
+    min-width: 200px;
+    min-height: 250px;
+  }
+  
+  .profile-menu div {
+    transition: background-color 0.3s ease;
+  }
+  
+
+  /* Transparent overlay styles */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  
+
+  .profile-section{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding: 20px 10px 10px 10px;
+    align-items: center;
+
+  }
+  .profile-section img{
+       width: 50px;
+       height: 50px;
+       background-color: blue;
+       border-radius: 50%;
+       margin-right: 10px;
+  }
+  .profile-section h1{
+    color: #000971;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.profile-links{
+    text-align: left;
+    font-size: 18px;
+   padding :10px 0px 10px 20px;
+
+
+}
+.profile-icons{
+   padding: 10px 5px 10px 0px;
+   color: rgb(105, 104, 104);
+}
+.profile-links:hover{
+    background-color: green;
+}
+
+.links-section1{
+    cursor: pointer;
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    /* Adjusting the main logo */
+    .main-logo {
+        width: 100px;
+        height: 25px;
+    }
+
+    /* Example adjustment for the left_div component */
+    .left_div {
+        width: 120px;
+    }
+
+    /* Example adjustment for the user_profile component */
+    .user_profile {
+        width: 30px;
+        height: 30px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    /* Example adjustment for the user_name component */
+    .user_name {
+        font-size: 14px;
+    }
+
+    /* Example adjustment for the Dashboard-main component */
+    .Dashboard-main {
+        height: 100%;
+    }
+
+    /* Example adjustment for the container-containt component */
+    .container-containt {
+        width: 90%;
+    }
+
+    /* Example adjustment for the Dashboard-card component */
+    .Dashboard-card {
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    /* Example adjustment for the card_datetime component */
+    .card_datetime {
+        width: 80%;
+    }
+
+    
+}

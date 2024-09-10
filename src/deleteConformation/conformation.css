@@ -1,0 +1,68 @@
+.confirmation-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    z-index: 9999; /* Ensure the popup appears on top of everything */
+  }
+  .conformationArea{
+    height: 15vh;
+  }
+  .popup-buttons{
+    display: flex;
+    align-items: flex-start;
+  }
+  .confirmation-popup {
+    position: absolute;
+    top: 25vh;
+    background-color: #fff;
+    padding: 20px 40px 0px 30px;
+    height: max-content;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .warningSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .warningSection img{
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+  }
+.warningSection p{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .confirmation-popup p {
+    margin-bottom: 15px;
+  }
+  
+  .popup-buttons button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .confirm-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+  

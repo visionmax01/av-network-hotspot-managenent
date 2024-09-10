@@ -1,0 +1,126 @@
+.Footer_section{
+    display:flex;
+    background-color: #b3bf99;
+    border-top: 3px solid rgb(255, 217, 0) !important;
+    width: 100%;
+    height:max-content;
+    justify-content: space-between;
+}
+.about_containt{
+    width:40% !important;
+    padding:20px;
+    text-align: center;
+}
+.about_containt h1{
+    color:blue;
+    text-decoration: underline;
+
+}
+.about_containt p{
+    text-align: justify;
+    color:#000063 !important;
+    font-size: 14px;
+}
+.links-section{
+    width:10%!important;
+    margin-left: 2%;
+}
+.links-section h2{
+    color:blue;
+    text-decoration: underline blue;margin-bottom: 10px;
+}
+.links-section ul li{
+     text-align: left;
+    list-style: none !important;
+    color:rgb(3, 3, 102) !important;
+    font-size: 16px;
+
+}
+.links-section ul li a{
+    text-decoration: none;
+    list-style: none !important;
+    color:rgb(3, 3, 102) !important;
+    font-size: 16px;
+    text-align: left;
+}
+.links-section ul li a:hover{
+    text-decoration: none;
+    list-style: none !important;
+    color:rgb(129, 117, 12) !important;
+    font-size: 16px;
+    text-align: left;
+   text-decoration: underline red;
+    border-radius: 5px;
+}
+
+.contact_containt{
+      width:40%!important;
+      text-align: center;
+      
+}
+.contact_containt h2{
+    color:red;
+}
+.contact_containt p{
+  color:#000063;
+  padding:10px 30px;
+  font-size: 20px;
+  text-decoration: underline rgb(0, 106, 255) 1px;
+}
+.social-icon{
+    width:30px;
+    height: 30px;
+    padding: 10px 15px;
+}
+.lower-footer{
+    width: 100%;
+    background-color: black;
+    color: white !important;
+    display:flex !important;
+    padding:8px 0px;
+   
+ 
+    
+}
+.left-field{
+    width:50% !important;
+    margin-left: 35px;
+    
+
+}
+.copy-right{
+    color:#a4a2ff!important;
+    font-size: 16px;
+    text-align: left;
+}
+.right-field{
+    width:50% !important;
+    
+}
+.copy-right{
+    letter-spacing: 2px !important;
+}
+.copy-right a{
+    text-decoration: none;
+    color:#0f0cb7;
+    transition: all ease 0.5s;
+}
+.copy-right a:hover{
+    text-decoration: none;
+    color:red;
+}
+.right-field .privacy{
+    color:#a4a2ff;
+    font-size: 16px;
+    letter-spacing: 2px;
+     text-align: center;
+}
+.privacy span a{
+    text-decoration: none;
+    color:#a4a2ff;
+    transition: all ease 0.5s;
+}
+.privacy span a:hover{
+    text-decoration: none;
+    color:red;
+}

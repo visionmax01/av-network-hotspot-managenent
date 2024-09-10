@@ -1,0 +1,266 @@
+.profileSection{
+  width:min-content;
+  height:280px;
+  margin-right: 15px;
+  padding: 10px;
+  background-color: #d7d4d4f3;
+  border-radius: 8px;
+}
+.profilePicture{
+  position: relative;
+  width: 230px;
+  height: 230px;
+  border-radius: 8px 8px 0px 0px;
+  background-color:#fa7575;
+}
+
+.btn-change-pic{
+  background-color: #3e98f8;
+  border-style: none;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  color:white;
+  transition: ease 0.5s;
+}
+.btn-change-pic:hover{
+  cursor: pointer;
+  background-color: #003e81;
+  border-style: none;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
+}
+.text-info p{
+  position: absolute;
+  top: 60%;
+  left: 14%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height:30px;
+  z-index: 1;
+  color: rgb(50, 0, 0);
+  
+
+}
+.profile-img{
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+   object-fit:fill;
+   border-radius: 8px 8px 0px 0px;
+}
+.userDetailSection{
+  background-color: rgba(225, 224, 224, 0.468);
+  padding: 10px;
+  border-radius: 8px;
+
+}
+.namePlate h2{
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 900;
+  opacity: 75%;
+}
+
+.nav{
+    background-color: rgba(255, 162, 0, 0.148);
+    border-radius: 8px;
+
+}
+.nav-link.active {
+    background-color: transparent;
+    border-radius: 8px;
+    color: #fe8c00; 
+    font-weight: bold;
+  }
+  .nav-link{
+    cursor: pointer;
+    color: #000000; 
+    font-weight: bold;
+  }
+  .nav-link:hover{
+    cursor: pointer;
+    color: #fe8c00; 
+  }
+  
+  .tab-content {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .tab-pane {
+    margin-top: 0px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 8px;
+    background-color: transparent;
+
+
+  }
+
+  .profile-input{
+    border-radius: none;
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000; 
+    padding: 5px; 
+    margin: 5px 0;
+  
+  
+  }
+  .form-group-profile{
+    cursor:default;
+
+  }
+  .text-label{
+    width: 180px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .user-detail{
+  text-transform: capitalize;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    margin-left: 4px;
+  }
+ 
+  .user-detail td{
+    width: 100%;
+    padding-bottom: 8px;
+    display: flex;
+    font-size: 18px;
+    flex-direction: Row;
+  }
+ .displayData1{
+    font-weight: 400;
+    width: 30%;
+}
+.displayData2{
+    font-weight: 900;
+    width: 20%;
+}
+.displayData3{
+    font-weight: 600;
+    width: 40%;
+  color: #003772;
+}
+.test-style{
+    margin-right: 50px;
+    font-weight: 900;
+    font-size: 20px;
+ }
+ .user-data{
+    color: salmon;
+    font-size: 20px;
+    font-weight: 400;
+ }
+  .tab-pane.show {
+    opacity: 1;
+    max-height: 1000px;
+  }
+ 
+  .btn-edit-profile{
+    background-color: #3e98f8;
+    border-style: none;
+    outline: none;
+    text-align: center;
+    width: 120px;
+    padding: 5px 0px 5px 0px;
+    font-size: 18px;
+    color:white;
+    transition: ease 0.5s;
+  }
+  .btn-edit-profile:hover{
+    cursor: pointer;
+    background-color: #003e81;
+    border-style: none;
+    outline: none;
+    text-align: center;
+    width: 120px;
+    font-size: 18px;
+  }
+  .chlabel{
+    color: blue;
+    font-size: 14px;
+  }
+
+
+/* --- progress days --- */
+.days-remaning{
+  position: relative;
+  width: 180px;
+  height: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(225, 224, 224, 0.468);
+}
+.circle_Display{
+  position: relative;
+  display: flex;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.display-daysInside-Circle{
+  text-align: center;
+  font-size: 13px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+
+}
+.stock-holder{
+  position: absolute;
+  top: 88%;
+  width: 24px;
+  height: 24px;
+  background-color: rgb(86, 47, 2);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+}
+.verified-icon{
+  color: green;
+}
+
+.display-daysInside-Circle p{
+  margin-top: -8px;
+}
+.display-daysInside-Circle h2{
+  font-size: 35px;
+  margin-left: -10px;
+  color: rgb(37, 0, 122);
+  font-weight: 900;
+}
+.circle-progressbar-ind{
+  transform: rotate(180deg);
+}
+.date-section02{
+  text-align: center;
+
+}
+.label-date{
+  color:#000;
+  font-size: 20px;
+  font-weight: 600;
+}
+.display-date{
+  font-size: 23px;
+  color: #fc0303;
+  font-weight: 900;
+}
+.displayemail{
+  text-transform: lowercase;
+  font-weight: 600;
+  width: 40%;
+color: #003772;
+}

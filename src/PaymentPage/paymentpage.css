@@ -1,0 +1,152 @@
+.main-container{
+     align-items: center;
+     font-size: 62.5%;
+     background-color: #e1e1e1;
+     padding-top:50px;
+     margin-top: -25px;
+}
+.Heading h2{
+    font-size: 25px;
+    color: #6d77c9;
+}
+.QR-Main-Cobtainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 100%;
+    margin-top: 2%;
+    transition: all ease-in-out 0.5s;
+    animation-duration: 4s;
+    /* margin-bottom: 10px; */
+}
+.Heading{
+    margin-top: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.QR-Container-one{
+    width: 350px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.back_design{
+    position: relative;
+    z-index: 100;
+    width: 250px;
+    margin-top:100px;
+    margin-left: 35px;
+    height: 250px;
+    background-color: #DADFFB;
+    rotate: 45deg;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    box-shadow:4px 4px 10px #ffa2a2  ;
+}
+.QR-image{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    z-index: 200;
+    margin-top:-400px;
+    margin-left: 35px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #000000 ;
+
+}
+.information{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Note-text{
+   color: Red;
+}
+.paymrntForm-btn{
+    font-size: 20px;
+    background-color: #8894FF;
+    color: white ;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    border-style: none ;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.paymrntForm-btn:hover{
+    font-size: 20px;
+    background-color: #6d77c9;
+    color: white ;
+    border-radius: 8px;
+    width: 150px;
+    border-style: none ;
+    box-shadow: 3px 3px 5px green;
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .QR-Main-Cobtainer{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: max-content;
+        width: 100%;
+        margin-top: 2%;
+        transition: all ease-in-out 0.5s;
+        animation-duration: 4s;
+        /* margin-bottom: 10px; */
+    }
+    .QR-Main-Cobtainer{
+        padding-left: 1.5rem;
+    }
+    .Heading h2{
+        margin-top: 5%;
+        padding: 5vw;
+        text-align: center;
+        margin-bottom: 20px;
+        color: brown;
+    
+    }
+    
+    .QR-Container-one{
+        width: 350px;
+        height: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .back_design{
+        position: relative;
+        z-index: 100;
+        width: 250px;
+        margin-top:100px;
+        margin-left: 35px;
+        height: 250px;
+        background-color: #DADFFB;
+        rotate: 45deg;
+        flex-wrap: wrap;
+        border-radius: 40px;
+        box-shadow:4px 4px 10px #ffa2a2  ;
+    }
+    .QR-image{
+        width: 250px;
+        height: 350px;
+        position: relative;
+        z-index: 200;
+        margin-top:-400px;
+        margin-left: 35px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 10px #000000 ;
+    
+    }
+    .information{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .Note-text{
+       color: Red;
+    } 
+}
