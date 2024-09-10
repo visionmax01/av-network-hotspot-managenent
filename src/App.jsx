@@ -1,7 +1,6 @@
-// Import necessary modules
-import React, { useState, useEffect } from 'react';
-import { RouterProvider, createBrowserRouter, useRoutes } from 'react-router-dom';
-import './AdminPages/css/toast.css'
+import React, { useState } from 'react';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import './AdminPages/css/toast.css';
 import Axios from 'axios'; 
 import Home from './HomePage/Home';
 import Login from './LoginRegisterPage/Login';
@@ -30,9 +29,9 @@ const authenticate = () => {
   return token ? true : false;
 };
 
-
 function App() {
   const [authenticated, setAuthenticated] = useState(authenticate());
+
   const route = createBrowserRouter([
     { path: '/', element: <Home /> },
     { path: '/Payment', element: <Payment /> },
@@ -41,6 +40,7 @@ function App() {
     { path: '/forget-password', element: <ForgetPassword /> },
     { path: '/reset-password/:token', element: <ResetPassword /> },
     { path: '/login', element: <Login setAuthenticated={setAuthenticated} /> },
+    
     // Protect admin routes using ProtectedRoute
     { path: '/admin-dashboard', element: <ProtectedRoute authenticated={authenticated}><Dashboard /></ProtectedRoute> },
     { path: '/add-user', element: <ProtectedRoute authenticated={authenticated}><AddUser /></ProtectedRoute> },
@@ -59,9 +59,9 @@ function App() {
   ]);
 
   return (
-    <div className='App'>
+    <>
       <RouterProvider router={route}></RouterProvider>
-    </div>
+    </>
   );
 }
 
